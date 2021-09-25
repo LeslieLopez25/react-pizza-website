@@ -18,6 +18,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarMenu>
         <SidebarLink to="/">Pizzas</SidebarLink>
         <SidebarLink to="/">Desserts</SidebarLink>
+        <SidebarLink to="/">Soft Drinks</SidebarLink>
         <SidebarLink to="/">Full Menu</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>

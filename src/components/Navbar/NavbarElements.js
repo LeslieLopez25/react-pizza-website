@@ -11,12 +11,13 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-  color: #fff;
-  font-size: 2rem;
+  color: var(--white);
+  font-size: 3rem;
   display: flex;
   align-items: center;
   text-decoration: none;
   cursor: pointer;
+  -webkit-text-stroke: 2px hsl(92.1, 43.9%, 38.4%);
 
   @media screen and (max-width: 400px) {
     position: absolute;
@@ -31,7 +32,7 @@ export const NavIcon = styled.div`
   top: 0;
   right: 0;
   cursor: pointer;
-  color: #fff;
+  color: var(--white);
 
   p {
     transform: translate(-175%, 100%);
