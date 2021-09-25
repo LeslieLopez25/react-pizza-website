@@ -6,8 +6,10 @@
 
 ### Link
 
-- Live Site: [Pizza Pros Website]()
+- Live Site: [Pizza Pros Website](https://pizza-website-pizza-pros.netlify.app/)
 
 ### Screenshots
 
-<img src="src/screenshots/desktop.png" width="400" height="1100"><img src="src/screenshots/mobile.png" width="200"><img src="src/screenshots/sidebar.png" width="200">
+<img src="src/screenshots/desktop.png" width="400"><img src="src/screenshots/desktop-2.png" width="400">
+<img src="src/screenshots/mobile.png" width="200"><img src="src/screenshots/mobile-2.png" width="200">
+<img src="src/screenshots/sidebar.png" width="300">
