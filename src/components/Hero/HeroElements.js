@@ -8,39 +8,39 @@ export const HeroContainer = styled.div`
       hsl(35.1, 91.8%, 62%, 0.3)
     ),
     url(${ImgBg});
-  height: 650px;
   background-position: center;
   background-size: cover;
+  height: 40.62rem;
 `;
 
 export const HeroContent = styled.div`
-  height: calc(100% - 80px);
-  max-height: 100%;
   padding: 0rem calc((103% - 1300px) / 2);
+  height: calc(100% - 5rem);
+  max-height: 100%;
 `;
 export const HeroItems = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
-  max-height: 100%;
-  padding: 0 2rem;
-  width: 650px;
   color: var(--white);
+  font-weight: bold;
   text-transform: uppercase;
   line-height: 1;
-  font-weight: bold;
+  padding: 0 2rem;
+  height: 100%;
+  max-height: 100%;
+  width: 40.62rem;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 40.62em) {
     width: 100%;
   }
 `;
 export const HeroH1 = styled.h1`
   font-size: clamp(2.5rem, 10vw, 5rem);
-  margin-bottom: 1rem;
   box-shadow: 3px 5px var(--primary-light-color);
-  letter-spacing: 3px;
+  letter-spacing: 0.18rem;
+  margin-bottom: 1rem;
 `;
 
 export const HeroP = styled.p`
@@ -49,17 +49,17 @@ export const HeroP = styled.p`
 `;
 
 export const HeroBtn = styled.button`
+  background: var(--secondary-dark-color);
+  color: var(--white);
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
-  background: var(--secondary-dark-color);
-  color: var(--white);
   transition: 0.2s ease-out;
 
   &:hover {
     background: var(--secondary-light-color);
+    color: var(--black);
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: var(--black);
   }
 `;
